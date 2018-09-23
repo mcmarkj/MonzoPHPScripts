@@ -83,8 +83,6 @@ wh_log("Token will expire: " . date("d-m-Y @ H:i", $tsamp));
 
   <?php
 
-//$token = "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJlYiI6IjJOblI3cG9IMGhBM21KUEhoNndSIiwianRpIjoiYWNjdG9rXzAwMDA5WnlhNXF1Vk96YmlSM0VjZE4iLCJ0eXAiOiJhdCIsInYiOiI1In0.q670IR5S9nkYoFicrc-ECaIR9Yhw-wdFpIb0yMhzgmYipvc0_qVb2CHI3SBbb4uFxCI57Nv2Ahi-Qrs9vbs2DQ";
-
 
 // Read the current balance //
 function rudr_mailchimp_curl_connect( $url, $request_type, $token) {
