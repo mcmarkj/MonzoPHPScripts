@@ -84,7 +84,7 @@ wh_log('I will transfer '. $amount .'pence  on ' . $dateTransfer);
                 $MSISDN,
                 array(
                     // A Twilio phone number you purchased at twilio.com/console
-                    'from' => '+447403940659',
+                    'from' => '',
                     // the body of the text message you'd like to send
                     'body' => $Message
                 )
